@@ -7,42 +7,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <title>Pricing example · Bootstrap v5.3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
 
 </head>
 
 <body>
-    <div class="">
+    <div class="container">
         <header>
-            <div class="">
-                <a href="/" class="">
+            <div class="row">
+                <a href="/" class="col-6">
                     <span class="">Pricing example</span>
                 </a>
 
-                <nav class="">
-                    <a class="" href="#">Features</a>
-                    <a class="" href="#">Enterprise</a>
-                    <a class="" href="#">Support</a>
-                    <a class="" href="#">Pricing</a>
+                <nav class="row col-6">
+                    <a class="col-3" href="#">Features</a>
+                    <a class="col-3" href="#">Enterprise</a>
+                    <a class="col-3" href="./support.html">Support</a>
+                    <a class="col-3" href="./Pricing.html">Pricing</a>
                 </nav>
             </div>
 
-            <div class="">
+            <div class="row a1">
                 <h1 class="">Pricing</h1>
-                <p class="">Quickly build an effective pricing table for your potential customers with this Bootstrap
+                <p class="">Quickly build an effective pricing table for your potential customers with
+                    this Bootstrap
                     example. It’s built with default Bootstrap components and utilities with little customization.</p>
             </div>
         </header>
 
         <main>
-            <div class="">
-                <div class="">
+            <div class="row a1">
+                <div class="card col-4 a1">
                     <div class="">
-                        <div class="">
-                            <h4 class="">Free</h4>
+                        <div class="a1">
+                            <h4 class="col-6">Free</h4>
                         </div>
-                        <div class="">
-                            <h1 class="">$0<small class="">/mo</small></h1>
-                            <ul class="">
+                        <div class="a1">
+                            <h1 class="col-6">$0<small class="">/mo</small></h1>
+                            <ul class="col-6">
                                 <li>10 users included</li>
                                 <li>2 GB of storage</li>
                                 <li>Email support</li>
@@ -52,10 +55,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="">
+                <div class="card col-4 a1">
                     <div class="">
                         <div class="">
-                            <h4 class="">Pro</h4>
+                            <h4 class="col-6">Pro</h4>
                         </div>
                         <div class="">
                             <h1 class="">$15<small class="">/mo</small></h1>
@@ -69,10 +72,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="">
+                <div class="card col-4">
                     <div class="">
                         <div class="">
-                            <h4 class="">Enterprise</h4>
+                            <h4 class="col-6">Enterprise</h4>
                         </div>
                         <div class="">
                             <h1 class="">$29<small class="">/mo</small></h1>
@@ -88,10 +91,10 @@
                 </div>
             </div>
 
-            <h2 class="">Compare plans</h2>
+            <h2 class="a1">Compare plans</h2>
 
-            <div class="">
-                <table class="">
+            <div class="container mt-5">
+                <table class="table">
                     <thead>
                         <tr>
                             <th></th>
@@ -103,42 +106,42 @@
                     <tbody>
                         <tr>
                             <th scope="row" class="">Public</th>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <td>&#10004;</td>
+                            <td>&#10004;</td>
+                            <td>&#10004;</td>
                         </tr>
                         <tr>
                             <th scope="row" class="">Private</th>
                             <td></td>
-                            <td></td>
-                            <td></td>
+                            <td>&#10004;</td>
+                            <td>&#10004;</td>
                         </tr>
                     </tbody>
 
                     <tbody>
                         <tr>
                             <th scope="row" class="">Permissions</th>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <td>&#10004;</td>
+                            <td>&#10004;</td>
+                            <td>&#10004;</td>
                         </tr>
                         <tr>
                             <th scope="row" class="">Sharing</th>
                             <td></td>
-                            <td></td>
-                            <td></td>
+                            <td>&#10004;</td>
+                            <td>&#10004;</td>
                         </tr>
                         <tr>
                             <th scope="row" class="">Unlimited members</th>
                             <td></td>
-                            <td></td>
-                            <td></td>
+                            <td>&#10004;</td>
+                            <td>&#10004;</td>
                         </tr>
                         <tr>
                             <th scope="row" class="">Extra security</th>
                             <td></td>
                             <td></td>
-                            <td></td>
+                            <td>&#10004;</td>
                         </tr>
                     </tbody>
                 </table>
@@ -146,12 +149,12 @@
         </main>
 
         <footer class="">
-            <div class="">
-                <div class="">
+            <div class="row">
+                <div class="col-3">
                     <img class="" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="24" height="19">
                     <small class="">&copy; 2017–2023</small>
                 </div>
-                <div class="">
+                <div class="col-3">
                     <h5>Features</h5>
                     <ul class="">
                         <li class=""><a class="" href="#">Cool stuff</a></li>
@@ -162,7 +165,7 @@
                         <li class=""><a class="" href="#">Last time</a></li>
                     </ul>
                 </div>
-                <div class="">
+                <div class="col-3">
                     <h5>Resources</h5>
                     <ul class="">
                         <li class=""><a class="" href="#">Resource</a></li>
@@ -171,7 +174,7 @@
                         <li class=""><a class="" href="#">Final resource</a></li>
                     </ul>
                 </div>
-                <div class="">
+                <div class="col-3">
                     <h5>About</h5>
                     <ul class="">
                         <li class=""><a class="" href="#">Team</a></li>
