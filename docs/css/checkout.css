@@ -1,3 +1,24 @@
-.a1 {
+.price_example {
+    text-align: left; font-size: 30px
+}
+.headline {
     text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.a1 {
+    margin-top: 15px;
+}
+
+.a2 {
+    text-align: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration-line: none;
+    color: black;
 }
